@@ -15,7 +15,6 @@ spec:
     spec:
       containers:
       - image: docker.io/supun97/vote:latest
-        imagePullPolicy: Always
         name: vote-ui
         ports:
         - containerPort: 80
